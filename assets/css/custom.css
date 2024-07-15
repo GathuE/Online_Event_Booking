@@ -1,0 +1,187 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+     background-image: url("images/bg.jpg");
+    
+}
+
+#nav_logo {
+    max-height: 40px;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+
+#alert_card{
+    background-color: green;
+    color:white;
+}
+
+#book_button {
+    background-color: purple;
+    color: white;
+    float: right;
+    padding: 5px;
+    margin: 10px;
+    border: 0px;
+    outline: none;
+    border-radius: 5px;
+    
+}
+#image_button {
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    margin: 10px;
+    border: 0px;
+    outline: none;
+    border-radius: 5px;
+}
+
+#IntroductionModal,
+#AppointmentModal {
+    margin-top: relative;
+    padding: 10px;
+}
+
+.close {
+    font-size: 12px;
+    background-color: purple;
+    color: white;
+}
+
+#modal_controller {
+    text-align: right;
+    padding: 20px;
+}
+
+#intro_card_content>h5 {
+    color: purple;
+    text-align: center;
+    margin-top: -20px;
+}
+
+#appointment_card_content {
+    padding: 30px;
+    margin-top: -20px;
+}
+
+#appointment_card_content>h4 {
+    color: green;
+    text-align: center;
+    margin-top: -20px;
+}
+
+#card_title {
+    width: 200px;
+    height: 40px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+}
+
+#appointment_card_content>h5,
+h6 {
+    color: purple;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.form-control {
+    max-width: 500px;
+}
+
+#form_label {
+    color: purple;
+    font-size: 14px;
+}
+
+.error_msg {
+    color: red;
+    font: 6px;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.datepicker {
+    z-index: 1600 !important;
+    /* has to be larger than 1050 */
+}
+
+#padded_row {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    /*max-width: 500px; */
+}
+#payment_card,
+#visit_info_card {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f1f1f1;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#payment_data,
+#visit_info_card>h4,
+h5,
+h6 form_label,
+small {
+    color: purple;
+}
+
+#payment_data,
+#visit_info_card>p,
+span {
+    color: green;
+}
+
+#emphasy_text {
+    color: green;
+}
+
+#organization_data{
+    background-color:#e3d1e5 ;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card_heading{
+    text-align: center;
+    color:purple;
+    
+}
+.heading_underline{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    height: 3px;
+    width: 150px;
+    margin-top:-10px;
+}
+.card_paragraph{
+    text-align:center;
+    color:#222;
+    font-weight: bold;
+    text-justify: center;
+    
+}
+.card_paragraph_heading{
+    text-align:center;
+    color:green;
+    font-weight: bold;
+    text-justify: center;
+}
+#lcontact_info_card{
+    text-align: center;
+}
+.contact_button{
+    background-color: purple;
+    border-radius: 10px;
+    padding: 10px;
+}
+#contact_icon{
+    min-width:15px;
+    min-height:15px;
+    color: purple;
+}
+
